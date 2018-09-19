@@ -4393,7 +4393,7 @@
       "noie8": false,
       "ie7": false,
       "selector": "class",
-      "classSelector": ".icon",
+      "classSelector": ".xl-icon",
       "cssVars": true,
       "cssVarsFormat": "less",
       "postfix": ""
