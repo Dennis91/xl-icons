@@ -1,0 +1,689 @@
+@import "variables";
+
+@font-face {
+  font-family: '@{icomoon-font-family}';
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?63rhr8');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?63rhr8#iefix') format('embedded-opentype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?63rhr8') format('truetype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?63rhr8') format('woff'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?63rhr8#@{icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '@{icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.abort-icon {
+  &:before {
+    content: @abort-icon; 
+  }
+}
+.activity-icon {
+  &:before {
+    content: @activity-icon; 
+  }
+}
+.add-icon {
+  &:before {
+    content: @add-icon; 
+  }
+}
+.archive-icon {
+  &:before {
+    content: @archive-icon; 
+  }
+}
+.arrow-down-icon {
+  &:before {
+    content: @arrow-down-icon; 
+  }
+}
+.arrow-right-icon {
+  &:before {
+    content: @arrow-right-icon; 
+  }
+}
+.arrow-up-icon {
+  &:before {
+    content: @arrow-up-icon; 
+  }
+}
+.attachment-icon {
+  &:before {
+    content: @attachment-icon; 
+  }
+}
+.back-icon {
+  &:before {
+    content: @back-icon; 
+  }
+}
+.block-icon {
+  &:before {
+    content: @block-icon; 
+  }
+}
+.calendar-icon {
+  &:before {
+    content: @calendar-icon; 
+  }
+}
+.cancel-icon {
+  &:before {
+    content: @cancel-icon; 
+  }
+}
+.change-icon {
+  &:before {
+    content: @change-icon; 
+  }
+}
+.check-icon {
+  &:before {
+    content: @check-icon; 
+  }
+}
+.chevron-down-icon {
+  &:before {
+    content: @chevron-down-icon; 
+  }
+}
+.chevron-up-icon {
+  &:before {
+    content: @chevron-up-icon; 
+  }
+}
+.circle-check-icon {
+  &:before {
+    content: @circle-check-icon; 
+  }
+}
+.circle-cross-icon {
+  &:before {
+    content: @circle-cross-icon; 
+  }
+}
+.circle-exclamation-icon {
+  &:before {
+    content: @circle-exclamation-icon; 
+  }
+}
+.close-icon {
+  &:before {
+    content: @close-icon; 
+  }
+}
+.cluster-icon {
+  &:before {
+    content: @cluster-icon; 
+  }
+}
+.code-icon {
+  &:before {
+    content: @code-icon; 
+  }
+}
+.column-icon {
+  &:before {
+    content: @column-icon; 
+  }
+}
+.comment-icon {
+  &:before {
+    content: @comment-icon; 
+  }
+}
+.compare-icon {
+  &:before {
+    content: @compare-icon; 
+  }
+}
+.config-icon {
+  &:before {
+    content: @config-icon; 
+  }
+}
+.container-icon {
+  &:before {
+    content: @container-icon; 
+  }
+}
+.dashboard-icon {
+  &:before {
+    content: @dashboard-icon; 
+  }
+}
+.decrease-icon {
+  &:before {
+    content: @decrease-icon; 
+  }
+}
+.delay-icon {
+  &:before {
+    content: @delay-icon; 
+  }
+}
+.delete-icon {
+  &:before {
+    content: @delete-icon; 
+  }
+}
+.deployed-icon {
+  &:before {
+    content: @deployed-icon; 
+  }
+}
+.drag-icon {
+  &:before {
+    content: @drag-icon; 
+  }
+}
+.duplicate-icon {
+  &:before {
+    content: @duplicate-icon; 
+  }
+}
+.edit-icon {
+  &:before {
+    content: @edit-icon; 
+  }
+}
+.educate-icon {
+  &:before {
+    content: @educate-icon; 
+  }
+}
+.export-icon {
+  &:before {
+    content: @export-icon; 
+  }
+}
+.file-error-icon {
+  &:before {
+    content: @file-error-icon; 
+  }
+}
+.file-generic-icon {
+  &:before {
+    content: @file-generic-icon; 
+  }
+}
+.file-icon {
+  &:before {
+    content: @file-icon; 
+  }
+}
+.filter-icon {
+  &:before {
+    content: @filter-icon; 
+  }
+}
+.flag-icon {
+  &:before {
+    content: @flag-icon; 
+  }
+}
+.folder-icon {
+  &:before {
+    content: @folder-icon; 
+  }
+}
+.fullscreen-exit-icon {
+  &:before {
+    content: @fullscreen-exit-icon; 
+  }
+}
+.fullscreen-icon {
+  &:before {
+    content: @fullscreen-icon; 
+  }
+}
+.gate-icon {
+  &:before {
+    content: @gate-icon; 
+  }
+}
+.graph-icon {
+  &:before {
+    content: @graph-icon; 
+  }
+}
+.grid-icon {
+  &:before {
+    content: @grid-icon; 
+  }
+}
+.group-icon {
+  &:before {
+    content: @group-icon; 
+  }
+}
+.help-icon {
+  &:before {
+    content: @help-icon; 
+  }
+}
+.host-icon .path1 {
+  &:before {
+    content: @host-icon-path1;  
+    color: rgb(253, 141, 16);  
+    opacity: 0.0640;
+  }
+}
+.host-icon .path2 {
+  &:before {
+    content: @host-icon-path2;  
+    margin-left: -1em;  
+    color: rgb(253, 141, 16);
+  }
+}
+.increase-icon {
+  &:before {
+    content: @increase-icon; 
+  }
+}
+.info-icon {
+  &:before {
+    content: @info-icon; 
+  }
+}
+.infrastructure-disabled-icon .path1 {
+  &:before {
+    content: @infrastructure-disabled-icon-path1;  
+    color: rgb(213, 213, 213);  
+    opacity: 0.4;
+  }
+}
+.infrastructure-disabled-icon .path2 {
+  &:before {
+    content: @infrastructure-disabled-icon-path2;  
+    margin-left: -1em;  
+    color: rgb(213, 213, 213);
+  }
+}
+.keyboard-icon {
+  &:before {
+    content: @keyboard-icon; 
+  }
+}
+.list-icon {
+  &:before {
+    content: @list-icon; 
+  }
+}
+.lock-icon {
+  &:before {
+    content: @lock-icon; 
+  }
+}
+.mail-icon {
+  &:before {
+    content: @mail-icon; 
+  }
+}
+.manual-icon .path1 {
+  &:before {
+    content: @manual-icon-path1;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.0100;
+  }
+}
+.manual-icon .path2 {
+  &:before {
+    content: @manual-icon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.minus-icon {
+  &:before {
+    content: @minus-icon; 
+  }
+}
+.monitor-control-icon {
+  &:before {
+    content: @monitor-control-icon; 
+  }
+}
+.monitor-deployments-icon {
+  &:before {
+    content: @monitor-deployments-icon; 
+  }
+}
+.monitor-icon {
+  &:before {
+    content: @monitor-icon; 
+  }
+}
+.move-folder-icon {
+  &:before {
+    content: @move-folder-icon; 
+  }
+}
+.not-synced-icon {
+  &:before {
+    content: @not-synced-icon; 
+  }
+}
+.notarget-icon {
+  &:before {
+    content: @notarget-icon; 
+  }
+}
+.notification-icon {
+  &:before {
+    content: @notification-icon; 
+  }
+}
+.options-icon {
+  &:before {
+    content: @options-icon; 
+  }
+}
+.parallel-icon {
+  &:before {
+    content: @parallel-icon; 
+  }
+}
+.pending-icon {
+  &:before {
+    content: @pending-icon; 
+  }
+}
+.permissions-icon {
+  &:before {
+    content: @permissions-icon; 
+  }
+}
+.planner-icon {
+  &:before {
+    content: @planner-icon; 
+  }
+}
+.play-icon {
+  &:before {
+    content: @play-icon; 
+  }
+}
+.power-icon {
+  &:before {
+    content: @power-icon; 
+  }
+}
+.project-icon {
+  &:before {
+    content: @project-icon; 
+  }
+}
+.provision-applied-icon {
+  &:before {
+    content: @provision-applied-icon; 
+  }
+}
+.provisioner-icon {
+  &:before {
+    content: @provisioner-icon; 
+  }
+}
+.puzzle-icon {
+  &:before {
+    content: @puzzle-icon; 
+  }
+}
+.refresh-icon {
+  &:before {
+    content: @refresh-icon; 
+  }
+}
+.release-icon {
+  &:before {
+    content: @release-icon; 
+  }
+}
+.remote-task-icon {
+  &:before {
+    content: @remote-task-icon; 
+  }
+}
+.restore-icon {
+  &:before {
+    content: @restore-icon; 
+  }
+}
+.retry-icon {
+  &:before {
+    content: @retry-icon; 
+  }
+}
+.rocket-icon {
+  &:before {
+    content: @rocket-icon; 
+  }
+}
+.script-icon {
+  &:before {
+    content: @script-icon; 
+  }
+}
+.search-icon {
+  &:before {
+    content: @search-icon; 
+  }
+}
+.sequential-icon {
+  &:before {
+    content: @sequential-icon; 
+  }
+}
+.server-icon {
+  &:before {
+    content: @server-icon; 
+  }
+}
+.settings-icon {
+  &:before {
+    content: @settings-icon; 
+  }
+}
+.shared-config-icon {
+  &:before {
+    content: @shared-config-icon; 
+  }
+}
+.show-more-icon {
+  &:before {
+    content: @show-more-icon; 
+  }
+}
+.sort-asc-icon {
+  &:before {
+    content: @sort-asc-icon; 
+  }
+}
+.sort-desc-icon {
+  &:before {
+    content: @sort-desc-icon; 
+  }
+}
+.sort-icon {
+  &:before {
+    content: @sort-icon; 
+  }
+}
+.speedometer-icon {
+  &:before {
+    content: @speedometer-icon; 
+  }
+}
+.star-icon {
+  &:before {
+    content: @star-icon; 
+  }
+}
+.sync-icon {
+  &:before {
+    content: @sync-icon; 
+  }
+}
+.table-icon {
+  &:before {
+    content: @table-icon; 
+  }
+}
+.tag-icon {
+  &:before {
+    content: @tag-icon; 
+  }
+}
+.target-icon {
+  &:before {
+    content: @target-icon; 
+  }
+}
+.template-icon {
+  &:before {
+    content: @template-icon; 
+  }
+}
+.thumbs-icon {
+  &:before {
+    content: @thumbs-icon; 
+  }
+}
+.timeline-icon {
+  &:before {
+    content: @timeline-icon; 
+  }
+}
+.url-icon {
+  &:before {
+    content: @url-icon; 
+  }
+}
+.user-icon {
+  &:before {
+    content: @user-icon; 
+  }
+}
+.users-icon {
+  &:before {
+    content: @users-icon; 
+  }
+}
+.variable-icon {
+  &:before {
+    content: @variable-icon; 
+  }
+}
+.version-icon {
+  &:before {
+    content: @version-icon; 
+  }
+}
+.visbility-on-icon {
+  &:before {
+    content: @visbility-on-icon; 
+  }
+}
+.visibility-off-icon {
+  &:before {
+    content: @visibility-off-icon; 
+  }
+}
+.warning-icon {
+  &:before {
+    content: @warning-icon; 
+  }
+}
+.watcher-icon {
+  &:before {
+    content: @watcher-icon; 
+  }
+}
+.webhook-icon {
+  &:before {
+    content: @webhook-icon; 
+  }
+}
+.wrench-icon {
+  &:before {
+    content: @wrench-icon; 
+  }
+}
+.xml-icon {
+  &:before {
+    content: @xml-icon; 
+  }
+}
+.dictionary-locked-icon {
+  &:before {
+    content: @dictionary-locked-icon; 
+  }
+}
+.dictionary-icon {
+  &:before {
+    content: @dictionary-icon; 
+  }
+}
+.environment-icon .path1 {
+  &:before {
+    content: @environment-icon-path1;  
+    color: rgb(8, 177, 83);  
+    opacity: 0.2;
+  }
+}
+.environment-icon .path2 {
+  &:before {
+    content: @environment-icon-path2;  
+    margin-left: -1em;  
+    color: rgb(8, 177, 83);
+  }
+}
+.infrastructure-icon .path1 {
+  &:before {
+    content: @infrastructure-icon-path1;  
+    color: rgb(253, 141, 16);  
+    opacity: 0.5;
+  }
+}
+.infrastructure-icon .path2 {
+  &:before {
+    content: @infrastructure-icon-path2;  
+    margin-left: -1em;  
+    color: rgb(253, 141, 16);
+  }
+}
+.package-icon {
+  &:before {
+    content: @package-icon; 
+  }
+}
+.satellite-group-icon {
+  &:before {
+    content: @satellite-group-icon; 
+  }
+}
+.satellite-icon {
+  &:before {
+    content: @satellite-icon; 
+  }
+}
+.app-icon {
+  &:before {
+    content: @app-icon; 
+  }
+}
+

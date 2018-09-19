@@ -4392,10 +4392,10 @@
       "includeMetadata": true,
       "noie8": false,
       "ie7": false,
-      "selector": "i",
+      "selector": "class",
       "classSelector": ".icon",
-      "cssVars": false,
-      "cssVarsFormat": "scss",
+      "cssVars": true,
+      "cssVarsFormat": "less",
       "postfix": "-icon"
     },
     "imagePref": {
