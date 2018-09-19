@@ -2059,7 +2059,7 @@
         }
       ],
       "properties": {
-        "order": 98,
+        "order": 163,
         "id": 64,
         "name": "manual",
         "prevSize": 32,
@@ -4368,7 +4368,7 @@
   },
   "preferences": {
     "showGlyphs": true,
-    "showQuickUse": true,
+    "showQuickUse": false,
     "showQuickUse2": true,
     "showSVGs": true,
     "fontPref": {
@@ -4396,7 +4396,7 @@
       "classSelector": ".icon",
       "cssVars": true,
       "cssVarsFormat": "less",
-      "postfix": "-icon"
+      "postfix": ""
     },
     "imagePref": {
       "prefix": "icon-",
