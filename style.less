@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '@{icomoon-font-family}';
-  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?x7b9ex');
-  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?x7b9ex#iefix') format('embedded-opentype'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?x7b9ex') format('truetype'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?x7b9ex') format('woff'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?x7b9ex#@{icomoon-font-family}') format('svg');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?s2waz');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?s2waz#iefix') format('embedded-opentype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?s2waz') format('truetype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?s2waz') format('woff'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?s2waz#@{icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.chevron-right-icon {
+  &:before {
+    content: @chevron-right-icon; 
+  }
+}
+.chevron-left-icon {
+  &:before {
+    content: @chevron-left-icon; 
+  }
+}
+.visbility-on-icon {
+  &:before {
+    content: @visbility-on-icon; 
+  }
+}
+.help-icon {
+  &:before {
+    content: @help-icon; 
+  }
+}
+.retry-icon {
+  &:before {
+    content: @retry-icon; 
+  }
+}
+.environment-full-icon {
+  &:before {
+    content: @environment-full-icon; 
+  }
+}
 .precondition-icon {
   &:before {
     content: @precondition-icon; 
