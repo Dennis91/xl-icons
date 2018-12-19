@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '@{icomoon-font-family}';
-  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?t5uyp');
-  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?t5uyp#iefix') format('embedded-opentype'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?t5uyp') format('truetype'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?t5uyp') format('woff'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?t5uyp#@{icomoon-font-family}') format('svg');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?nbinxc');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?nbinxc#iefix') format('embedded-opentype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?nbinxc') format('truetype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?nbinxc') format('woff'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?nbinxc#@{icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flag-attention-icon {
+  &:before {
+    content: @flag-attention-icon;     
+    color: #fd8d10;
+  }
+}
+.flag-risk-icon {
+  &:before {
+    content: @flag-risk-icon;     
+    color: #d94c3d;
+  }
+}
 .chevron-right-icon {
   &:before {
     content: @chevron-right-icon; 
